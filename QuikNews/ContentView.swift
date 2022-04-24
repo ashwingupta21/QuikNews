@@ -10,8 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        Tab()
-            
+        Tab().environmentObject(ContentModel())
 
         
     }

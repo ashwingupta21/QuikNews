@@ -24,9 +24,7 @@ struct NewsObject: Identifiable{
           case id
       }
     
-    
 }
-
 
 
 struct author{

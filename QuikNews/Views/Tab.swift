@@ -18,7 +18,7 @@ struct Tab: View {
             
             //list of all news categories
             NewsDetailView()
-             .environmentObject(ContentModel())
+                .environmentObject(ContentModel())
              .tabItem {
                  Label("Categories", systemImage: "list.bullet.rectangle.fill").foregroundColor(.white)
              }
@@ -31,7 +31,7 @@ struct Tab: View {
                  }
             
             //
-            NewsDetailView()
+            TrendingList()
              .environmentObject(ContentModel())
              .tabItem {
                  Label("Trending", systemImage: "chart.line.uptrend.xyaxis.circle.fill").foregroundColor(.white)

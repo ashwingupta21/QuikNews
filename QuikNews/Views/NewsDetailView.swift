@@ -42,16 +42,15 @@ struct NewsDetailView: View {
                             Image(systemName: "square.and.arrow.up")
                         }.foregroundColor(.white)
                         Spacer()
-                    }.padding()
+                    }.padding()                                    
                 }
-                
-                
+              
             }.preferredColorScheme(.light)
             
             Group{
+                
                 ZStack{
-                    
-                    
+
                     VStack(alignment: .leading){
                         
                         Text(new.bodyHeader ?? "").bold()
